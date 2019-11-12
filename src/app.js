@@ -14,25 +14,25 @@ import "./styles/styles.scss";
 const store = configureStore();
 
 
-store.dispatch(addExpense({ description:'water bill', amount: 5000}));
-store.dispatch(addExpense({ description:'gas bill', createdAt: 1000}));
-store.dispatch(addExpense({ description:'internet bill'}));
-store.dispatch(addExpense({ description:'medical bill', amount: 77777777777}));
-store.dispatch(addExpense({ description:'drinking water'}));
-store.dispatch(addExpense({ description:'rent', amount: "105000"}));
-store.dispatch(addExpense({ description:'books bill', amount: 7000, createdAt: 2000}));
-store.dispatch(addExpense({ description:'fridge bill', amount: 200000}));
-store.dispatch(addExpense({ description:'repare bill', amount: 3300}));
+// store.dispatch(addExpense({ description:'water bill', amount: 5000}));
+// store.dispatch(addExpense({ description:'gas bill', createdAt: 1000}));
+// store.dispatch(addExpense({ description:'internet bill'}));
+// store.dispatch(addExpense({ description:'medical bill', amount: 77777777777}));
+// store.dispatch(addExpense({ description:'drinking water'}));
+// store.dispatch(addExpense({ description:'rent', amount: "105000"}));
+// store.dispatch(addExpense({ description:'books bill', amount: 7000, createdAt: 2000}));
+// store.dispatch(addExpense({ description:'fridge bill', amount: 200000}));
+// store.dispatch(addExpense({ description:'repare bill', amount: 3300}));
 // store.dispatch(setTextFilter('water'));
 
 
 
 const state = store.getState();
-const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-console.log(visibleExpenses) 
+// const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
+// console.log(visibleExpenses) 
 
 // store.dispatch(getVisibleExpenses('water'))
-console.log(store.getState());
+// console.log(store.getState());
 
 // store in curly brackets is our store variable, store will be available for components
 const jsx = (
