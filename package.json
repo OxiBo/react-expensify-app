@@ -1,6 +1,9 @@
 {
   "name": "expensify",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.10.0"
+  },
   "main": "index.js",
   "author": "OxiBo",
   "license": "MIT",
